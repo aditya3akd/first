@@ -1,0 +1,66 @@
+nav ul
+{
+display:flex; 
+list-style-type: none;
+} 
+nav 
+{
+    background-color:blue ; 
+
+} 
+nav ul li
+{
+    color:red; 
+    font:15px; 
+    padding: 10px;
+} 
+body
+{
+    background-color: black;
+} 
+#myProgressBar
+{
+    width:1500px;
+    cursor: pointer;
+} 
+.container
+{
+    min-height:83vh;
+    display: flex;
+    background-color:white ;
+    margin:23px auto; 
+    padding: 30px; 
+    width:70%; 
+    background-image: url('music.jpg');
+} 
+.bottom
+{
+    position:sticky; 
+    bottom:0; 
+     display:flex; 
+    
+     flex-direction: column; 
+     align-items: center;
+    background-color:yellow;
+}
+.icons
+{
+    color:red; 
+    cursor: pointer;
+} 
+#shift
+{
+    color:red;
+} 
+.songItem
+{
+    height:50px; 
+    display: flex; 
+    background-color: black;
+    color:green
+} 
+.songInfo img
+{
+  opacity:1; 
+  transition: opacity 0s ease-in;
+}
